@@ -12,4 +12,4 @@ RUN pip3 install --upgrade pip
 RUN pip3 install -U -r requirements.txt
 
 # Running Music Player Bot
-CMD ["bash", "startup.sh"]
+RUN python3 main.py
